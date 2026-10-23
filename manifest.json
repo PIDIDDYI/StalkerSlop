@@ -1,0 +1,419 @@
+{
+ "v": 1,
+ "mods": [
+  {
+   "id": "gunslinger",
+   "game": "cop",
+   "title": "Ганслингер",
+   "version": "12.04.2026",
+   "tagline": "Оружие оживает: полсотни стволов с новыми анимациями, 3D-прицелы и улучшения для каждого",
+   "about": "Самый известный оружейный мод для «Зова Припяти»: около пятидесяти образцов оружия со своими анимациями и звуками, 3D-прицелы, обвесы и дерево улучшений у каждого ствола.",
+   "description": [
+    "«Ганслингер» — оружейный мод команды GUNSLINGER для «Зова Припяти». Он не просто добавляет стволы: мод заново собирает всё, что связано с оружием от первого лица, — модели, анимации, звук и поведение в руках.",
+    "Около пятидесяти образцов — от ПМ и «Форта» до ВСС, гаусс-винтовки и «Грозы» — получили свои анимации перезарядки, осмотра и клина. У каждого ствола своё дерево улучшений, а на оружие ставятся оптика с настоящим 3D-прицеливанием, лазерные целеуказатели, тактические фонари и штык-ножи.",
+    "Руки героя тоже живые: аптечки, бинты, еда и КПК используются в кадре, и на это нужно время. Удар прикладом, быстрый бросок гранаты, перезарядка и смена патронов вручную делают каждую перестрелку осмысленнее.",
+    "В нашем порте у мода свои сохранения и настройки, а обычная игра остаётся нетронутой — переключиться можно в любой момент. Для новых действий мода на экране появляются свои кнопки."
+   ],
+   "features": [
+    {
+     "title": "Полсотни стволов",
+     "text": "Пистолеты, дробовики, автоматы, снайперские винтовки и гранатомёты — новые модели, анимации и звук"
+    },
+    {
+     "title": "3D-прицелы",
+     "text": "Картинка в линзе оптики, ночные и коллиматорные прицелы, дополнительный прицел на оружии"
+    },
+    {
+     "title": "Улучшения и обвесы",
+     "text": "Своё дерево улучшений у каждого ствола; глушители, лазеры, фонари и штык-ножи"
+    },
+    {
+     "title": "Живые руки",
+     "text": "Аптечки, еда, детекторы и КПК в кадре; осечки и клины со своими анимациями"
+    },
+    {
+     "title": "Тактика боя",
+     "text": "Удар прикладом или ногой, быстрая граната, ручная перезарядка и выбор патронов"
+    },
+    {
+     "title": "Выживание",
+     "text": "Жажда и фляги, ранения и передозировка, разборка предметов у механиков"
+    }
+   ],
+   "tags": [
+    "Оружие",
+    "Анимации",
+    "3D-прицелы",
+    "Улучшения",
+    "Выживание"
+   ],
+   "authors": "Команда GUNSLINGER: STRIFER, Mr. Rifleman, SAM61, Sin!, Иavaяo",
+   "port": "Перенос на телефоны — stalker-mobile.ru",
+   "requirements": [
+    "Файлы «Зова Припяти» в лаунчере",
+    "Около 2 ГБ свободного места",
+    "На слабых телефонах лучше набор графики «Экономно»"
+   ],
+   "source": {
+    "title": "Страница мода на AP-PRO.RU",
+    "url": "https://ap-pro.ru/stuff/zov_pripjati/gunslinger-mod-r250/"
+   },
+   "cover": "gunslinger/media/cover.jpg",
+   "gallery": [
+    {
+     "img": "gunslinger/media/scope.jpg",
+     "caption": "3D-прицелы с картинкой в линзе",
+     "art": true
+    },
+    {
+     "img": "gunslinger/media/reload.jpg",
+     "caption": "Свои анимации перезарядки у каждого ствола",
+     "art": true
+    },
+    {
+     "img": "gunslinger/media/upgrades.jpg",
+     "caption": "Обвесы и дерево улучшений",
+     "art": true
+    },
+    {
+     "img": "gunslinger/media/night.jpg",
+     "caption": "Тактический фонарь и лазерный целеуказатель",
+     "art": true
+    },
+    {
+     "img": "gunslinger/media/medkit.jpg",
+     "caption": "Аптечки, бинты и еда — прямо в руках",
+     "art": true
+    }
+   ],
+   "size": 1955641743,
+   "dir": "gunslinger",
+   "parts": [
+    {
+     "id": "base",
+     "title": "Основа мода",
+     "about": "Оружие, анимации, звуки и механики мода",
+     "required": true,
+     "default": true,
+     "files": [
+      {
+       "name": "game_data_patch_1602.db",
+       "size": 35199417,
+       "gz": 20251772,
+       "crc": "eee94eba",
+       "path": "gunslinger/12.04.2026/game_data_patch_1602.db.gz"
+      },
+      {
+       "name": "guns_data_camanims.db",
+       "size": 1038049,
+       "gz": 206694,
+       "crc": "52cd8a25",
+       "path": "gunslinger/12.04.2026/guns_data_camanims.db.gz"
+      },
+      {
+       "name": "guns_data_hands.db",
+       "size": 74517054,
+       "gz": 46569660,
+       "crc": "787e72cc",
+       "path": "gunslinger/12.04.2026/guns_data_hands.db.gz"
+      },
+      {
+       "name": "guns_data_hands_new_part1.db",
+       "size": 137355987,
+       "gz": 76952563,
+       "crc": "0b4ff43f",
+       "path": "gunslinger/12.04.2026/guns_data_hands_new_part1.db.gz"
+      },
+      {
+       "name": "guns_data_hands_new_part2.db",
+       "size": 109328087,
+       "gz": 57596535,
+       "crc": "2845c471",
+       "path": "gunslinger/12.04.2026/guns_data_hands_new_part2.db.gz"
+      },
+      {
+       "name": "guns_data_meshes.db",
+       "size": 26221361,
+       "gz": 16000603,
+       "crc": "fe8b96ab",
+       "path": "gunslinger/12.04.2026/guns_data_meshes.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_af.db",
+       "size": 60629588,
+       "gz": 39605093,
+       "crc": "823cdc75",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_af.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_gl.db",
+       "size": 43404202,
+       "gz": 26666413,
+       "crc": "35f7b7ba",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_gl.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_mr.db",
+       "size": 32440906,
+       "gz": 19543015,
+       "crc": "324de3a9",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_mr.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_ss.db",
+       "size": 59230546,
+       "gz": 38653224,
+       "crc": "e505172d",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_ss.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_tz.db",
+       "size": 38508002,
+       "gz": 24213881,
+       "crc": "5d0c1ca7",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_tz.db.gz"
+      },
+      {
+       "name": "guns_data_meshes_wpn.db",
+       "size": 7912367,
+       "gz": 5367873,
+       "crc": "1344e078",
+       "path": "gunslinger/12.04.2026/guns_data_meshes_wpn.db.gz"
+      },
+      {
+       "name": "guns_data_plaintext.db",
+       "size": 9025450,
+       "gz": 1168138,
+       "crc": "17d9dbdf",
+       "path": "gunslinger/12.04.2026/guns_data_plaintext.db.gz"
+      },
+      {
+       "name": "guns_data_resources.db",
+       "size": 1781090,
+       "gz": 190877,
+       "crc": "c4c0b531",
+       "path": "gunslinger/12.04.2026/guns_data_resources.db.gz"
+      },
+      {
+       "name": "guns_data_sounds.db",
+       "size": 19976818,
+       "gz": 19366294,
+       "crc": "9c6ff167",
+       "path": "gunslinger/12.04.2026/guns_data_sounds.db.gz"
+      },
+      {
+       "name": "guns_data_textures_act.db",
+       "size": 63884610,
+       "gz": 39565534,
+       "crc": "c9d4deed",
+       "path": "gunslinger/12.04.2026/guns_data_textures_act.db.gz"
+      },
+      {
+       "name": "guns_data_textures_common.db",
+       "size": 118981818,
+       "gz": 38203591,
+       "crc": "9c5794c7",
+       "path": "gunslinger/12.04.2026/guns_data_textures_common.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_ad.db",
+       "size": 68019517,
+       "gz": 28546990,
+       "crc": "b7466c96",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_ad.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_fg.db",
+       "size": 90025853,
+       "gz": 40150340,
+       "crc": "da3e38a7",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_fg.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_hp.db",
+       "size": 65895535,
+       "gz": 28395119,
+       "crc": "b75e0059",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_hp.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_rs.db",
+       "size": 89931000,
+       "gz": 41507136,
+       "crc": "97e85b29",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_rs.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_tw.db",
+       "size": 41428331,
+       "gz": 17484181,
+       "crc": "1bdbfb16",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_tw.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_ag.db",
+       "size": 133266733,
+       "gz": 57250684,
+       "crc": "486f7bdc",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_ag.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_hk.db",
+       "size": 52874515,
+       "gz": 23987706,
+       "crc": "c1ca20d9",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_hk.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_lm.db",
+       "size": 91331079,
+       "gz": 35394480,
+       "crc": "824b0895",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_lm.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_pr.db",
+       "size": 104864661,
+       "gz": 46952798,
+       "crc": "f5546478",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_pr.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_ss1.db",
+       "size": 202395973,
+       "gz": 87778772,
+       "crc": "f6368e37",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_ss1.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_ss2.db",
+       "size": 85289725,
+       "gz": 39833759,
+       "crc": "7930a300",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_ss2.db.gz"
+      },
+      {
+       "name": "guns_data_textures_wpn_wpn_tz.db",
+       "size": 90883469,
+       "gz": 42485790,
+       "crc": "d7cccb1f",
+       "path": "gunslinger/12.04.2026/guns_data_textures_wpn_wpn_tz.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "ammo",
+     "title": "Патроны 7,62×39",
+     "about": "Патроны 7,62×39 у торговцев и в добыче с убитых",
+     "required": false,
+     "default": true,
+     "files": [
+      {
+       "name": "guns_mod_ammo_762x39.db",
+       "size": 357243,
+       "gz": 205064,
+       "crc": "3dba2cbe",
+       "path": "gunslinger/12.04.2026/guns_mod_ammo_762x39.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "sks",
+     "title": "Карабин СКС",
+     "about": "Карабин Симонова в руках сталкеров, бандитов и «Долга»",
+     "required": false,
+     "default": true,
+     "files": [
+      {
+       "name": "guns_mod_wpn_sks.db",
+       "size": 100057900,
+       "gz": 62924550,
+       "crc": "ffb38366",
+       "path": "gunslinger/12.04.2026/guns_mod_wpn_sks.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "lr300",
+     "title": "LR-300",
+     "about": "Штурмовая винтовка LR-300 с анимациями и улучшениями — неофициальное дополнение",
+     "required": false,
+     "default": false,
+     "files": [
+      {
+       "name": "guns_mod_wpn_lr300_unoff.db",
+       "size": 64524400,
+       "gz": 31512480,
+       "crc": "295f5cde",
+       "path": "gunslinger/12.04.2026/guns_mod_wpn_lr300_unoff.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "rg6",
+     "title": "РГ-6",
+     "about": "Револьверный гранатомёт РГ-6 — неофициальное дополнение, анимации не окончательные",
+     "required": false,
+     "default": false,
+     "files": [
+      {
+       "name": "guns_mod_wpn_rg6_unoff.db",
+       "size": 20130826,
+       "gz": 10216260,
+       "crc": "d8acc93e",
+       "path": "gunslinger/12.04.2026/guns_mod_wpn_rg6_unoff.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "title": "Новая еда",
+     "about": "Хлеб, консервы и колбаса с новыми моделями и анимациями",
+     "required": false,
+     "default": true,
+     "files": [
+      {
+       "name": "guns_mod_unofficial_food.db",
+       "size": 9718775,
+       "gz": 5359182,
+       "crc": "a9f3a10f",
+       "path": "gunslinger/12.04.2026/guns_mod_unofficial_food.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "burer",
+     "title": "Ослабленный бюрер",
+     "about": "Бюрер уязвимее к пулям, телекинезом держит один предмет, гравиудар слабее",
+     "required": false,
+     "default": false,
+     "files": [
+      {
+       "name": "guns_mod_weakened_burer.db",
+       "size": 1278,
+       "gz": 735,
+       "crc": "95f36908",
+       "path": "gunslinger/12.04.2026/guns_mod_weakened_burer.db.gz"
+      }
+     ]
+    },
+    {
+     "id": "hardcore",
+     "title": "Хардкор",
+     "about": "Сохраняться можно только на базах и в сюжетных автосохранениях, слот пистолета закрыт",
+     "required": false,
+     "default": false,
+     "files": [
+      {
+       "name": "guns_mod_hardcore_mode.db",
+       "size": 625,
+       "gz": 506,
+       "crc": "d16daa78",
+       "path": "gunslinger/12.04.2026/guns_mod_hardcore_mode.db.gz"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
